@@ -17,11 +17,12 @@ int main()
        else if(b<a){
            cout<<"try bigger";
        }
-       c++;
-       if(a==b){
+       esle if(a==b){
            cout<<"you won";
            break;
        }
+        
+       c++;
        
     }
 
