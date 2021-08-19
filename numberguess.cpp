@@ -7,7 +7,7 @@ int main()
     int a=rand()% 10;
     int b;
     int c=1;
-    cout<<"enter bw 0 and 10"<<" "<<endl;
+    cout<<"enter bw 0 and 10"<<" "<<"\n";
     while(c<=3)
     {
        cin>>b;
@@ -17,7 +17,7 @@ int main()
        else if(b<a){
            cout<<"try bigger";
        }
-       esle if(a==b){
+       else if(a==b){
            cout<<"you won";
            break;
        }
